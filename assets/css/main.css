@@ -3487,8 +3487,9 @@ img {
   visibility: visible;
 }
 .vl-offcanvas .vl-offcanvas-logo {
-  height: 50px;
-  width: 164px;
+  width: 150px;
+  height: auto;
+  max-width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
   filter: brightness(0) invert(1);
